@@ -21,4 +21,8 @@ a {
   text-decoration: none;
 }
 
+.bg-img{
+  background-image: url('/images/bg.jpg');
+}
+
 
