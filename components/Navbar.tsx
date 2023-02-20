@@ -40,7 +40,7 @@ const Navbar = () => {
             {/* Menu */}
             <ul className='hidden sm:flex space-x-8' style={{color:`${textColor}`}}>
                 <li><Link className='text-lg hover:text-gray-400' href='/'>Home</Link></li>
-                <li><Link className='text-lg hover:text-gray-400' href='#gallery'>Gallery</Link></li>
+                <li><Link className='text-lg hover:text-gray-400' href='/#gallery'>Gallery</Link></li>
                 <li><Link className='text-lg hover:text-gray-400' href='/portifolio'>Work</Link></li>
                 <li><Link className='text-lg hover:text-gray-400' href='/contact'>Contact Us</Link></li>
             </ul>
