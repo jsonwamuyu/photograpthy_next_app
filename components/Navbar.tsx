@@ -40,7 +40,7 @@ const Navbar = () => {
             {/* Menu */}
             <ul className='hidden sm:flex space-x-8' style={{color:`${textColor}`}}>
                 <li><Link className='text-lg hover:text-gray-400' href='/'>Home</Link></li>
-                <li><Link className='text-lg hover:text-gray-400' href='/#gallery'>Gallery</Link></li>
+                <li><Link className='text-lg hover:text-gray-400' href='#gallery'>Gallery</Link></li>
                 <li><Link className='text-lg hover:text-gray-400' href='/portifolio'>Work</Link></li>
                 <li><Link className='text-lg hover:text-gray-400' href='/contact'>Contact Us</Link></li>
             </ul>
@@ -54,10 +54,10 @@ const Navbar = () => {
                 <div className={toggle ? 'absolute flex justify-center items-center w-full h-screen sm:hidden bg-black text-white top-0 left-0 bottom-0 text-center ease-in duration-300'
                 : 'absolute flex justify-center items-center w-full h-screen sm:hidden bg-black text-white top-0 left-[-100%] bottom-0 text-center ease-in duration-300'}>
                 <ul className='flex flex-col space-y-8'>
-                    <li><Link className='text-4xl hover:text-gray-500' href='/'>Home</Link></li>
-                    <li><Link className='text-4xl hover:text-gray-500' href='/#gallery'>Gallery</Link></li>
+                    <li><Link onClick={handleToggle} className='text-4xl hover:text-gray-500' href='/'>Home</Link></li>
+                    <li><Link onClick={handleToggle} className='text-4xl hover:text-gray-500' href='#gallery'>Gallery</Link></li>
                     <li><Link className='text-4xl hover:text-gray-500' href='/portifolio'>Work</Link></li>
-                    <li><Link className='text-4xl hover:text-gray-500' href='/contact'>Contact Us</Link></li>
+                    <li><Link onClick={handleToggle} className='text-4xl hover:text-gray-500' href='/contact'>Contact Us</Link></li>
                 </ul>
             </div>
         </div>        

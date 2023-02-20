@@ -1,8 +1,14 @@
 import React from 'react'
+interface Slide{
+  slides:string;
+}
 
-const Slider = () => {
+const Slider = ({slides}:Slide) => {
   return (
-    <div>Slider</div>
+    <section id="#gallery">
+      <h2 className="text-5xl font-bold">Gallery</h2>
+      <h6>{slides}</h6>
+    </section>
   )
 }
 

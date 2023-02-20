@@ -1,7 +1,7 @@
 export const sliderData = [
-    {image:""},
-    {image:""},
-    {image:""},
-    {image:""},
-    {image:""},
+    {image:"/images/bg.jpg"},
+    {image:"/images/bg.jpg"},
+    {image:"/images/bg.jpg"},
+    {image:"/images/bg.jpg"},
+    {image:"/images/bg.jpg"},
 ]
