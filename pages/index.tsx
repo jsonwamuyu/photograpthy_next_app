@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Captur' description='I love capturing beautiful moments.'/>
+      <Hero heading='Captur Photography' description='I love capturing beautiful moments and keep them alive.'/>
     </>
   )
 }
