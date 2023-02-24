@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Portifolio from "@/components/Portifolio";
 
 const Work = () =>{
     return(
