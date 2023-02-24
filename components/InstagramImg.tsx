@@ -17,6 +17,7 @@
 // export default InstagramImg
 
 import Image from "next/image";
+import {FaInstagram} from 'react-icons/fa'
 
 
 const InstagramImg = ({socialImg} : {socialImg:string}) =>{
